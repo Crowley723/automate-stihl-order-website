@@ -1,0 +1,92 @@
+@font-face {
+  font-family: Roboto-Regular;
+  src: url(/fonts/Roboto-Regular.ttf);
+}
+
+:root {
+  font-family: Roboto-Regular;
+  padding: 1vw 2vh;
+  margin-left: 13vw;
+}
+
+.sidenav {
+  height: 100%;
+  width: 13vw;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 5.5vh;
+  transition: 0.5s;
+}
+
+.sidenav a {
+  padding: 0.75vh 0.5vw 0.75vh 2vw;
+  text-decoration: none;
+  font-size: 18px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+
+.dropdown {
+    position: relative;
+}
+.dropdown button {
+  padding: 0.75vh 0.5vw 0.75vh 1.75vw;
+  background-color: rgba(0, 0, 0, 0);
+  color: #818181;
+  font-size: 18px;
+  border: none;
+  display: block;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.dropdown button:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .dropdown-button:active {
+  color: darkslategray;
+}
+
+.dropdown-content {
+    display: none;
+    position: relative;
+    background-color: #111;
+    border: none;
+    top: 100%;
+
+}
+.dropdown-content a{
+    padding: 0.75vh 0.5vw 0.75vh 5vw;
+    display: block;
+    font-size: 18px;
+    text-decoration: none;
+    color: #818181;
+    transition: 0.3s;
+}
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+
+  .sidenav a,
+  .sidenav .dropdown-button {
+    font-size: 18px;
+  }
+}
