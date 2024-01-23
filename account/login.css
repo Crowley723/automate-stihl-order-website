@@ -1,0 +1,49 @@
+.login-container {
+    width: 20vw;
+    height: 30vh;
+    top: 30%;
+    flex-direction: column;
+    margin: 10vh auto ;
+    align-self: center;
+    justify-content: center;
+    text-align: center;
+    background-color: var(--colors-orange);
+    box-shadow: 0px 0px 0px rgba(0,0,0,0.5);
+    border: 1px solid black;
+    border-radius: 0.25vw;
+}
+
+.login-form{
+    margin: auto;
+    padding: 1vh;
+    display: flex;
+    flex-direction: column;
+    vertical-align: middle;
+    align-content: center;
+    
+}
+
+.entry-label{
+    margin-top: 1vh;
+    
+}
+.entry-box{
+    margin: 0.5vh auto 1vh;
+    padding: 1vh 3vw 1vh;
+    width: 10vw;
+    text-align: center;
+    border-radius: 0.25vw;
+    box-shadow: 10px 4px 8px rgba(0,0,0,0.5);
+}
+.remember-me {
+    margin-top: 1vh;
+}
+.submit-button {
+    margin: 1vh 1vw 1vh 1vw;
+    padding: 0.75vh 3vw;
+    color: white;
+    background-color: black;
+    border: none;
+    box-shadow: 10px 4px 8px rgba(0,0,0,0.5);
+    border-radius: 0.25vw;
+}
