@@ -1,16 +1,19 @@
 .login-container {
+    min-width: 250px;
     width: 20vw;
-    height: 30vh;
-    top: 30%;
     flex-direction: column;
-    margin: 10vh auto ;
-    align-self: center;
+    margin: 10vh auto;
     justify-content: center;
     text-align: center;
     background-color: var(--colors-orange);
-    box-shadow: 0px 0px 0px rgba(0,0,0,0.5);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border: 1px solid black;
     border-radius: 0.25vw;
+    display: flex;
+}
+
+.login-header{
+    margin-bottom: 1vh;
 }
 
 .login-form{
@@ -30,7 +33,6 @@
 .entry-box{
     margin: 0.5vh auto 1vh;
     padding: 1vh 3vw 1vh;
-    width: 10vw;
     text-align: center;
     border-radius: 0.25vw;
     box-shadow: 10px 4px 8px rgba(0,0,0,0.5);
@@ -46,4 +48,36 @@
     border: none;
     box-shadow: 10px 4px 8px rgba(0,0,0,0.5);
     border-radius: 0.25vw;
+}
+
+.login-container .separator {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    z-index: 1;
+    margin: 0 2vw 0.25vh 2vw;
+}
+
+.login-container .line {
+    flex-grow: 1;
+    height: 1px;
+    background-color: rgba(0,0,0,0.6);
+    margin: 0 0.25vw
+}
+
+.login-container  .text {
+color: rgba(0,0,0,0.6);
+}
+
+.login-container .signup{
+    text-decoration: none;
+    margin: 1vh auto 2vh;
+    padding: 0.75vh 4vw;
+    color: white;
+    background-color: black;
+    border: none;
+    box-shadow: 10px 4px 8px rgba(0,0,0,0.5);
+    border-radius: 0.25vw;
+    font-size: 14px;
+
 }
