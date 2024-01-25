@@ -14,13 +14,13 @@
   --colors-red: red;
   --colors-overlay: rgba(0,0,0,0.5);
   font-family: Roboto-Regular;
-  padding: 1vw 2vh;
-  margin-left: 13vw;
+  padding: 1.5vh 1.5vw;
+  margin-left: 255px;
 }
 
 .sidenav {
   height: 100%;
-  width: 13vw;
+  width: 255px;
   position: fixed;
   z-index: 1;
   top: 0;
