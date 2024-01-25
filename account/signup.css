@@ -1,0 +1,82 @@
+.signup-container {
+    min-width: 250px;
+    width: 20vw;
+    flex-direction: column;
+    margin: 10vh auto;
+    justify-content: center;
+    text-align: center;
+    background-color: var(--colors-orange);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 1px solid black;
+    border-radius: 0.25vw;
+    display: flex;
+}
+
+.signup-header{
+    margin-bottom: 1vh;
+}
+
+.signup-form{
+    margin: auto;
+    padding: 1vh;
+    display: flex;
+    flex-direction: column;
+    vertical-align: middle;
+    align-content: center;
+    
+}
+
+.entry-label{
+    margin-top: 1vh;
+    
+}
+.entry-box{
+    margin: 0.5vh auto 1vh;
+    padding: 1vh 3vw 1vh;
+    text-align: center;
+    border-radius: 0.25vw;
+    box-shadow: 10px 4px 8px rgba(0,0,0,0.5);
+}
+.remember-me {
+    margin-top: 1vh;
+}
+.submit-button {
+    margin: 1vh 1vw 1vh 1vw;
+    padding: 0.75vh 3vw;
+    color: white;
+    background-color: black;
+    border: none;
+    box-shadow: 10px 4px 8px rgba(0,0,0,0.5);
+    border-radius: 0.25vw;
+}
+
+.signup-container .separator {
+    text-align: center;
+    z-index: 1;
+    margin: 0 2vw 0.25vh 2vw;
+}
+
+.signup-container .line {
+    flex-grow: 1;
+    height: 1px;
+    background-color: rgba(0,0,0,0.6);
+    margin: 0 0.25vw;
+}
+
+.signup-container  .text {
+color: rgba(0,0,0,0.6);
+
+}
+
+.signup-container .login{
+    text-decoration: none;
+    margin: 1vh auto 2vh;
+    padding: 0.75vh 4vw;
+    color: white;
+    background-color: black;
+    border: none;
+    box-shadow: 10px 4px 8px rgba(0,0,0,0.5);
+    border-radius: 0.25vw;
+    font-size: 14px;
+
+}
